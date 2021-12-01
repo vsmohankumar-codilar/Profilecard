@@ -26,7 +26,7 @@ export default function Pagination({ setstate,state }) {
                 console.error('Error:', error);
             });
 
-    })
+    },[])
     const prev = () =>{
         if(state===2)
         {

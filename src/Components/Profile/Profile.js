@@ -17,7 +17,7 @@ export default function Profile({ state }) {
       const response = await fetch('https://reqres.in/api/users?page=' + x);
       const data = await response.json();
       setUser(data.data);
-    }, 1000);
+    }, 2000);
 
   }, [x])
 
